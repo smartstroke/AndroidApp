@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1D1B1D"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/SmartStrokeTextView"
+        android:layout_width="349dp"
+        android:layout_height="160dp"
+        android:gravity="center"
+        android:text="smart stroke"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/BeginButton"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="61dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/begin_session"
+        android:textSize="20sp"
+        android:textColor="#800020"
+        app:layout_constraintBottom_toTopOf="@+id/PastButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DeviceButton"
+        app:layout_constraintVertical_bias="0.518" />
+
+    <Button
+        android:id="@+id/PastButton"
+        android:layout_width="161dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="61dp"
+        android:backgroundTint="#800020"
+        android:textSize="15sp"
+        android:text="@string/past_sessions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DeviceButton"
+        app:layout_constraintVertical_bias="0.861" />
+
+    <Switch
+        android:id="@+id/debugSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/debug_mode"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/PastButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BeginButton"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/DeviceButton"
+        android:textSize="25sp"
+        android:layout_width="309dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="61dp"
+        android:backgroundTint="#800020"
+        android:text="@string/device_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

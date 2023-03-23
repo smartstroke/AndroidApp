@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">smart stroke</string>
+    <string name="begin_session">Begin Session</string>
+    <string name="past_sessions">Past Sessions</string>
+    <string name="device_list">Device List</string>
+    <string name="active_session">Active Session</string>
+    <string name="no_devices_connected">No devices connected</string>
+    <string name="connect">Connect</string>
+    <string name="_00_00">00:00</string>
+    <string name="end_session">End Session</string>
+    <string name="l1">L1</string>
+    <string name="r1">R1</string>
+    <string name="l2">L2</string>
+    <string name="r2">R2</string>
+    <string name="tw_scan_results_title" />
+    <string name="btn_start_scan_text" />
+    <string name="scan">scan</string>
+    <string name="back">Back</string>
+    <string name="debug_mode">Debug Mode</string>
+    <string name="top_left_text">0ms</string>
+    <string name="R1">R1\n</string>
+</resources>
